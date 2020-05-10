@@ -1,0 +1,199 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #e74958;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #222222;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FF385C;
+}
+
+a.navbar-brand {
+    margin-right: -115px;
+}
+
+.navbar-collapse {
+    align-items: end;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    margin-left: 15px;
+    border: none;
+    background: #FF385C;
+    color: #fff;
+}
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+    background: #222;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 700;    
+    margin-top:  -10vh;
+    margin: 40px 10px 40px;
+}
+
+.rooms {    
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+section.formulario-busca {
+    margin-top: 130px;
+    padding: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #dedcdc;
+}
+
+section.formulario-busca input[type="text"] {
+    padding: 21px;
+}
+
+section.formulario-busca button {
+    font-size: 20px;
+    height: 50%;  
+    margin-top: 30px;
+    background: #222;
+    color: #fff;
+}
+
+section.formulario-busca button:hover {
+    background: #FF385C;
+    color: #fff;
+}
+
+.form-row .column {
+    padding: 0 15px;
+}
+
+#label-localizacao, #label-checkin {
+    border-right: 2px solid #DDDDDD;
+}
+
+div.card {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+div.card:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+div.details {
+    padding: 15px;
+}
+
+img.card-img-top {    
+    height: 300px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    background: #FF385C;
+    color: #fff;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 0;
+}
+
+p.card-text {
+    position: absolute;
+    top: 10px;
+    background: #222;
+    color: #fff;
+    padding: 5px 15px 5px 25px;
+}
+
+h6.card-text {
+    font-weight: 300;
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: #222;
+    color: #fff;
+    padding: 5px 25px 5px 15px;
+    font-size: 12px;
+}
+
+h6.card-text strong {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Footer */
+
+section .section-title {
+    text-align: center;
+    color: #63dc3e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    padding: 60px 0;
+    background: #222;
+    color: #DDDDDD;
+}
+#footer h5{
+    color: #FF385C;
+	text-transform: uppercase;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+#footer a {
+    font-weight: 300;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size: 50px;
+	-webkit-transition: .5s all ease-in-out;
+	-moz-transition: .5s all ease-in-out;
+	transition: .5s all ease-in-out;
+}
+#footer ul.social li:hover a i {
+	font-size: 60px;
+	margin-top: -10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color: #fff;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+}
+#footer ul.quick-links li:hover{
+    color: #484848;
+	text-decoration: underline;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: bold;
+}
+
+#footer div.creditos {
+    justify-content: center;
+}
